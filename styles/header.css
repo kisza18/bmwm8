@@ -1,0 +1,86 @@
+header {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header .header-container {
+  margin: 0 15px;
+}
+
+header .header-container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1240px;
+  padding: 0 5px;
+  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  border-bottom: 0.1rem solid white;
+}
+
+header .header-container nav .nav-list li {
+  display: inline-block;
+}
+
+header .header-container nav .nav-list li .nav-links {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 40px 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
+  -webkit-transition: padding 0.3s;
+  transition: padding 0.3s;
+}
+
+header .header-container nav .nav-list li .nav-links:hover {
+  color: #4976b2 !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .header-container nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-container nav .logo .toggle {
+  width: 60px;
+  color: black;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 15px 5px;
+  display: none;
+}
+
+header .header-container nav .logo img {
+  width: 70px;
+  float: left;
+  margin-left: 15px;
+  padding-right: 15px;
+}
+
+header .header-container nav .logo .logoLink {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=header.css.map */

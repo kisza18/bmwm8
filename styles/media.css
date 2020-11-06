@@ -1,0 +1,174 @@
+@media screen and (max-width: 1173px) {
+  body section .section-one {
+    background-image: url("../assets/section-one/section-one-small.jpg");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body header {
+    background: white;
+    -webkit-box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  body header .header-container .nav.responsive {
+    padding: 0;
+    height: auto;
+    display: block;
+  }
+  body header .header-container .nav.responsive .nav-list.responsive {
+    padding-top: 66px;
+    display: block;
+  }
+  body header .header-container .nav {
+    padding: 0;
+    height: 66px;
+    display: block;
+  }
+  body header .header-container .nav .nav-list li {
+    display: block;
+  }
+  body header .header-container .nav .nav-list li .nav-links {
+    padding: 20px 5px;
+    color: black;
+  }
+  body header .header-container .nav .logo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header .header-container .nav .logo .toggle {
+    display: block;
+  }
+  body header .header-container .nav .logo img {
+    padding: 5px;
+    width: 60px;
+    margin: 0;
+  }
+  body header .header-container .nav .logo .logoLink {
+    font-size: 15px;
+    color: black;
+  }
+  body section .section-one {
+    background-image: url("../assets/section-one/section-one-mobile.jpg");
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body section .section-one .section-one-content {
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    right: 0;
+  }
+  body section .section-one .section-one-content h1 {
+    font-size: 35px;
+    word-wrap: break-word;
+  }
+  body section .section-one .section-one-content h3 {
+    font-size: 18px;
+  }
+  body section .section-two .section-two-content {
+    height: 250px;
+  }
+  body section .section-two .section-two-content h1 {
+    font-size: 35px;
+  }
+  body section .section-two .section-two-content h3 {
+    font-size: 20px;
+  }
+  body section .section-two .section-two-container {
+    height: 420px;
+  }
+  body section .section-two .section-two-container .card {
+    width: 250px;
+    height: 350px;
+  }
+  body section .section-two .section-two-container .card .card-content h1 {
+    font-size: 55px;
+  }
+  body section .section-two .section-two-container .card .card-content h3 {
+    font-size: 15px;
+  }
+  body section .section-three {
+    height: 200vh;
+  }
+  body section .section-three .section-three-sticky {
+    height: 100vh;
+  }
+  body section .section-three .section-three-sticky .section-three-content h1 {
+    font-size: 80px;
+  }
+  body section .section-three .section-three-sticky .section-three-content h3 {
+    display: none;
+  }
+  body section .section-three .section-three-sticky .section-three-content h4 {
+    display: block;
+  }
+  body section .section-four {
+    height: auto;
+  }
+  body section .section-four .table-container {
+    height: auto;
+    padding: 20px 15px 0 15px;
+  }
+  body section .section-four .table-container .table {
+    width: 100%;
+  }
+  body section .section-four .table-container .table table th,
+  body section .section-four .table-container .table table td {
+    padding: 10px;
+    font-size: 15px;
+  }
+  body section .section-four .table-container .table-img {
+    width: 100%;
+    height: 100vw;
+  }
+  body section .section-five {
+    padding: 0;
+  }
+  body section .section-five .section-five-content h1 {
+    font-size: 35px;
+  }
+  body section .section-five .section-five-content h3 {
+    font-size: 20px;
+  }
+  body section .section-footer .section-footer-container {
+    margin: 40px 0;
+  }
+  body section .section-footer .section-footer-container .sides {
+    display: block;
+    text-align: center;
+  }
+  body section .section-footer .section-footer-container .sides .right {
+    padding-top: 10px;
+  }
+  body section .section-footer .section-footer-container .line {
+    margin: 20px 0;
+  }
+  body section .section-footer .section-footer-container .social i {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

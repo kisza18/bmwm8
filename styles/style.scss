@@ -1,0 +1,17 @@
+@import "media";
+@import "header";
+@import "sections";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+body {
+  min-width: 320px;
+}
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+}
