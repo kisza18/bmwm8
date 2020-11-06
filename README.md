@@ -2,8 +2,4 @@
 
 BMW M8 Gran Coupé
 
-Pilot project
-
-Github version done...
-
-reopen...
+My first Front End project...
